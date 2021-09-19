@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinto Code - JavaScript</title>
+</head>
+
+<body>
+    <h2>Exemplo de JS no Body</h2>
+    <p id="function2">Parágrafo padrão.</p>
+    <button type="button" onclick="myFunction02()">Clique aqui.</button>
+    <button type="button" onclick="myFunction03()">Clique aqui para retornar ao padrão.</button>
+    <script>
+        // Exemplo de função criada no body
+        function myFunction02() {
+            document.getElementById("function2").innerHTML = "Parágrafo alterado."
+        }
+    </script>
+    <script>
+        // Função para retorar ao padrão
+        function myFunction03() {
+            document.getElementById("function2").innerHTML = "Parágrafo padrão."
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarto Code - JavaScript</title>
+    <script>
+        // Script criado na Head, podendo ser utilizada mais de uma vez.
+        function myFunction() {
+            document.getElementById("function01").innerHTML = "Parágrafo alterado.";
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Exemplo de JS na Head</h2>
+    <p id="function01"> Parágrafo padrão.</p>
+    <button type="button" onclick="myFunction()">Clique aqui.</button>
+    <!-- Button utilizando a function gerada na Head -->
+</body>
+
+</html>

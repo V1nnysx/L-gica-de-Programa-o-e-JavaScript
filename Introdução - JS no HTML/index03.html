@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terceiro Code - JavaScript</title>
+</head>
+
+<body>
+    <!-- Scripts utilizados dentro do HTML, sem JS externo -->
+    <h2>Acender e Apagar a lâmpada com JS</h2>
+
+    <p>Clique para acender ou apagar!</p>
+    <button onclick="document.getElementById('lampadaOnOff').src='src/pictures/pic_bulbon.gif'">Acenda a lâmpada.</button>
+    <img id="lampadaOnOff" src="src/pictures/pic_bulboff.gif" style="width:100px">
+    <button onclick="document.getElementById('lampadaOnOff').src='src/pictures/pic_bulboff.gif'">Apague a lâmpada.</button>
+    <br>
+    <br>
+    <hr>
+
+    <p id="alterarEstilo">Mude o estilo deste trecho clicando abaixo.</p>
+    <button type="button" onclick="document.getElementById('alterarEstilo').style.fontSize='72px'">Clique aqui!</button>
+    <button type="button" onclick="document.getElementById('alterarEstilo').style.fontSize='16px'">Clique para retornar ao padrão!</button>
+    <br>
+    <br>
+    <hr>
+    <p id="ocultarTexto">Clique no botão abaixo para ocultar.</p>
+    <button type="button" onclick="document.getElementById('ocultarTexto').style.display='none'">Clique aqui!</button>
+    <button type="button" onclick="document.getElementById('ocultarTexto').style.display='block'">Clique para retornar ao padrão!</button>
+</body>
+
+</html>
